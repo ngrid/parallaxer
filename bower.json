@@ -1,0 +1,27 @@
+{
+  "name": "parallaxer",
+  "version": "1.0",
+  "homepage": "https://github.com/ngrid/parallaxer",
+  "authors": [
+    "Nikita Gridinskiy <nikita.gridinskiy@gmail.com>"
+  ],
+  "description": "Making Parallax easy as pie since 2014",
+  "main": "parallax.js",
+  "keywords": [
+    "parallax",
+    "css3",
+    "effects"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}
