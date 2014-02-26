@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../parallaxer.js"></script>
+</head>
+<body>
+<!-- Test -->
+<div style="height:1000px"></div>
+<div class="parallax single" style="
+    height: 400px;
+    width: 100%;
+    background: url('parallax-bottom.jpg') no-repeat;
+"></div>
+
+<div class="parallax double" style="
+    height: 400px;
+    width: 100%;
+    background: url(parallax-mid.png), url(parallax-bottom.jpg),  no-repeat;
+"></div>
+
+<div class="parallax triple" style="
+    height: 400px;
+    width: 100%;
+    background: url(parallax-top.png), url(parallax-mid.png), url(parallax-bottom.jpg), no-repeat;
+"></div>
+</body>
+</html>
